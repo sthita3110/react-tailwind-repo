@@ -59,7 +59,7 @@ const BmiFormMetric = () => {
           </p>
         </div>
       </header>
-      <div className="border-solid border-2 border-indigo-600 m-5 p-9 flex justify-evenly">
+      <div className="border-solid border-2 border-indigo-600 m-5 p-9 flex flex-col justify-evenly md:flex-row md:justify-center">
         {/* BMI Calculator Form */}
         <div className="border-2 border-black p-5">
           <div className="flex justify-center items-center mb-2">
