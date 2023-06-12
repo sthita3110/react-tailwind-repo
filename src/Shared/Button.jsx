@@ -1,5 +1,6 @@
 const Button = (props) => {
-  const className = " btn btn-outline m-5 " + props.className;
+  const className =
+    "btn btn-xs sm:btn-sm md:btn-md lg:btn-lg m-4 p-1 " + props.className;
   return (
     <>
       {/* <div>

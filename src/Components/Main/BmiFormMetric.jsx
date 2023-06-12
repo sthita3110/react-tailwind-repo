@@ -54,12 +54,12 @@ const BmiFormMetric = () => {
           <p className="font-bold text-4xl font-serif tracking-wide mt-2 mb-2 p-2 text-red-900">
             BMI Calculator
           </p>
-          <p className=" text-white bg-neutral-600 hover:bg-neutral-400  hover:text-black hover:font-bold hover:tracking-wide p-2 mt-5 font-mono ">
+          <p className=" text-white bg-neutral-600 hover:bg-neutral-400  hover:text-black hover:font-bold hover:tracking-wide p-2 mt-5 font-mono w-auto ">
             Body Mass Index
           </p>
         </div>
       </header>
-      <div className="border-solid border-2 border-indigo-600 m-5 p-9 flex flex-col justify-evenly md:flex-row md:justify-center">
+      <div className="border-solid border-2 border-indigo-600 m-5 p-9 flex flex-col justify-evenly md:flex-row md:justify-evenly">
         {/* BMI Calculator Form */}
         <div className="border-2 border-black p-5">
           <div className="flex justify-center items-center mb-2">
@@ -112,8 +112,8 @@ const BmiFormMetric = () => {
           </div>
         </div>
         {/* BMI Result Show */}
-        <div className="border border-dashed border-black">
-          <div className=" text-center font-serif font-medium text-3xl p-3 w-96 text-violet-900 bg-purple-200">
+        <div className="border border-dashed border-black p-5 m-2">
+          <div className=" text-center font-serif font-medium text-3xl p-3 w-auto text-violet-900 bg-purple-200">
             Result
           </div>
 
