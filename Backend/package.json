@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "build": "react-scripts build"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -19,5 +14,10 @@
     "mongoose": "^7.3.0",
     "morgan": "^1.10.0",
     "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "build": "react-scripts build"
   }
 }
