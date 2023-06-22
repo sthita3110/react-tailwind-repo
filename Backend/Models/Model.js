@@ -53,7 +53,7 @@ const deleteUserModel = (body) => {
     return error;
   }
 };
-const currentWeatherModel = async () => {
+const currentWeatherModel = async (queryParams) => {
   try {
     const data = await axios.get(
       config.weatherApi.url +
