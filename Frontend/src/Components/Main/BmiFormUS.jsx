@@ -96,14 +96,14 @@ const BmiFormUS = () => {
               type="number"
               placeholder="feet"
               label="Height"
-              className=" w-32"
+              className="m-2"
               onChange={onChangeHeighFeetHandler}
               value={heightFeet}
             />
             <Input
               type="number"
               placeholder="inches"
-              className="mt-9 ml-3 w-32"
+              className=" mt-2rem ml-5px"
               onChange={onChangeHeighInchHandler}
               value={heightInch}
             />
@@ -132,12 +132,12 @@ const BmiFormUS = () => {
           </div>
         </div>
         {/* BMI Result Show */}
-        <div className="border border-dashed border-black">
+        <div className="border border-dashed border-black p-5">
           <div className=" text-center font-serif font-medium text-3xl p-3 w-96 text-violet-900 bg-purple-200">
             Result
           </div>
 
-          <div className="text-center">
+          <div className="text-center p-10">
             {bmiData ? (
               <div className="flex flex-col justify-around items-center">
                 <p className=" text-cyan-700 my-2 text-xl">Your BMI:-</p>

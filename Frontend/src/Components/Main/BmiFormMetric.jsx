@@ -117,7 +117,7 @@ const BmiFormMetric = () => {
             Result
           </div>
 
-          <div className="text-center">
+          <div className="text-center p-10">
             {bmiData ? (
               <div className="flex flex-col justify-around items-center">
                 <p className=" text-cyan-700 my-2 text-xl">Your BMI:-</p>
